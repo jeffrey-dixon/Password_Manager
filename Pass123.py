@@ -359,7 +359,7 @@ def main_app():
             f.close()
             os.system("attrib +h defaultpass.txt && attrib +h password.txt")
             #The application will check if defaultpass.txt and password.txt have not been change from its original state, indicating a new user
-            #____default____password____ is the contents of the unchanged defaultpass.txt
+            #string "____default____password____" is the contents of the unchanged defaultpass.txt
             #gAAAAABg is a string indicating the file would be encrypted
             if y == "____default____password____" and "gAAAAABg" not in x1:
                 print(Fore.CYAN + "------- Welcome to Pass123, the All Inclusive Password Tool -------" + Fore.RESET)
