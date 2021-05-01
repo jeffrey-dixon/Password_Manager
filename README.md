@@ -12,6 +12,6 @@ Application Inturruption Automatic Encryption- Using the python's signal module,
 ******To set up a functional application, please review instructions below******
 1. Convert Pass123.py into a .exe file. We recommend using pyinstaller. An this .exe file onto a flashdrive.
 2. Use the generate_filekey.py function to creat a secret key, do not change the name of the file key. Add this key to the flashdrive.
-3. Create a blank passwords.txt file and defaultpass.txt file that includes the string <**____default____password____**>. Add these two files on the flashdrive.
+3. Create a blank passwords.txt file and defaultpass.txt file that includes a string mentioned in line 362 of Pass123.py . Add these two files on the flashdrive.
 
 For first use, refer to the User Manual.
